@@ -1,0 +1,424 @@
+body {
+    background: #EBEBEB !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #666;
+    margin: 10px auto;
+}
+
+.navbar {
+    margin-bottom :0;
+    background: #ac143b;
+    border-radius: 0;
+    color: #fff;
+    min-height: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar .faculty{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.container {
+    padding: 0;
+    -moz-border-radius: 13px;
+    background: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden !important;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 650px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 780px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/*Header*/
+#header {
+    background: #fff !important;
+    height: 120px;
+    font-size: 22px;
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    color: #0088B5;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#header .logo {
+    float: left;
+    padding: 5px;
+    width: 120px;
+    height: 100px;
+    margin-right: 12px;
+}
+
+.info {
+    float: left;
+    width: 500px;
+    margin: 22px 0 0 0;
+}
+
+.info h3 {
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0;
+    padding: 3px;
+    color: #ac143b;
+}
+
+.logout {
+    float: right;
+    color: #fff !important;
+}
+/*Header*/
+
+/*Footer*/
+footer {
+    background: #ac143b;
+    color: #fff;
+    font-size: 14px;
+}
+
+footer ul {
+    list-style: none;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+
+footer ul>li {
+    line-height: 27px;
+}
+
+footer li i {
+    margin-right: 5px;
+}
+/*Footer*/
+
+/*Home Page*/
+.main-section {
+    margin: 30px 12px;
+    color: #000;
+}
+
+/*Home Page*/
+.welcome-panel {
+    background: #ac143b;
+    color: #fff;
+    border-radius: 7px;
+    padding: 30px 18px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.welcome-panel h3 {
+    margin-top: 0;
+}
+
+.welcome-panel h5 {
+    margin: 0;
+}
+
+.exam-notice {
+    margin: 55px 0;
+}
+
+.exam-notice .sectio-h4 {
+    margin-bottom: 25px;
+    color: #ac143b;
+}
+
+.exam-notice ul>li{
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.sets {
+    margin: 55px 0;
+}
+
+.sets .sectio-h4 {
+    margin-bottom: 25px;
+    color: #ac143b;
+}
+
+.set-box {
+    width: auto;
+    height: 105px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 6px rgba(0,0,0,0.25);
+}
+
+.set-box:hover {
+    transform: scale(1.08);
+    transition: all .3s ease-in-out;
+    transition-duration: .4s;
+}
+
+.set-box span{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn-start-exam {
+    background-color: #ac143b;
+    border: none;
+    box-shadow: 0;
+    color: #fff;
+    padding: 6px 18px;
+}
+
+.btn-start-exam:hover {
+    color: #fff;
+    background-color: #7b0f2b;
+}
+/*Home Page*/
+
+/*Login Page*/
+.login-panel {
+    padding: 18px;
+    background-color: #e8e8e8;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    margin: 0 220px;
+    color: #000;
+}
+
+@media(max-width: 1024px) {
+    .login-panel {
+        margin: 0 100px;
+    }
+}
+
+@media(max-width: 768px) {
+    .login-panel {
+        margin: 0 78px;
+    }
+}
+
+@media(max-width: 580px) {
+    .login-panel {
+        margin: 0 15px;
+    }
+}
+
+.btn-login {
+    background-color: #ac143b;
+    border-color: #ac143b;
+    color: #fff;
+}
+
+.btn-login:hover, .btn-login:active, .btn-login:focus {
+    background-color: #690e25;
+    border-color: #840f2d;
+    color: #fff;
+}
+
+.forget-password{
+    font-size:14px;
+    float:right;
+    display:inline-block;
+    margin-top:10px;
+    color: #ac143b !important;
+    font-weight: normal;
+}
+
+.signup-btn {
+    color: #ac143b !important;    
+}
+
+.login-form {
+    margin-top: 40px;
+}
+
+.form-actions {
+    margin-top: 20px;
+}
+
+.visible-ie8 {
+    font-size: 15px;
+}
+
+.login-form ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.login-form li {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.login-form .help-block {
+    font-size: 13px;
+}
+/*Login Page*/
+
+/*Take Exam Page*/
+.onlineExam form{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right:50px;
+}
+
+.question-section {
+    width: 72%;
+    text-align: justify;
+}
+
+.question{
+    font-size: 15px;
+}
+
+.marks {
+    margin-left: 20px;
+    margin-top: 6px;
+}
+
+.paragraph-h4 {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.question-option-div {
+    margin-bottom: 10px;
+}
+
+.answer{
+    font-weight: 600px; 
+    font-size: 14px;
+}
+
+.answer #question-option:hover {
+    cursor: pointer;
+}
+
+.btn-exam, .btn-exam:focus, .btn-exam:active {
+    background: #ac143b;
+    border-color: #ac143b;
+    box-shadow: none;
+    border:0 !important;
+    outline: 0 !important;
+}
+
+.btn-exam:hover, .btn-exam:active:hover {
+    background: #630f25;
+    border-color: #630f25;
+    box-shadow: none;
+}
+
+.onlineExam form .form-action {
+    height: 80px;
+    background-color: #f1f4f7;
+    border: 1px solid #e3e3e3;
+    padding: 20px;
+}
+
+.exam-notice .exam-information {
+    min-height: 154px;
+    padding: 12px;
+    width: 305px;
+    background-color: #ac143b;
+    color: #fff;
+    border-radius: 10px;
+    position: fixed;
+    right: 200px;
+    top: 22px;
+}
+
+.exam-notice .exam-information img{
+    height: 85px;
+    width: 80px;
+}
+
+.exam-information a{
+    color: #fff;
+    font-weight: 500;
+}
+
+.unanswered-questions a:focus {
+    text-decoration: none;
+}
+
+.onlineExam .modal-content h5 {
+    line-height: 21px;
+}
+/*Take Exam Page*/
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #337ab7; 
+    background-color: #fff; 
+    border-color: #ddd;
+}
+
+.show_result .panel-heading {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.show_result .panel-body {
+    font-size: 15px;
+}
+
+.show_result .btn-finish {
+    background: #25ab25;
+    border-color: #25ab25;
+    margin-left: 5px;
+}
+
+.show_result .btn-finish:hover {
+    background: #248224;
+    border-color: #248224;
+}
+
+.result-question-answer {
+    margin-bottom: 22px;
+}
+
+.result-question, .result-answer, .result-solution, .result-paragraph  {
+    margin-bottom: 8px;
+}
+
+.result-question-answer .label {
+    font-size: 12px;
+}
+
+.result-paragraph {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.toast-message {
+    font-size: 18px;
+}
+
+.login-panel p {
+    font-size: 14px;
+}
